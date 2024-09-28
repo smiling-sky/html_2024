@@ -1,0 +1,93 @@
+@import url("reset.css");
+
+/* fonts */
+@import url("fonts.css");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.main {
+}
+.img {
+}
+.title {
+  font-size: 24px;
+  line-height: 2;
+}
+.title span {
+  text-transform: uppercase;
+  font-style: italic;
+}
+.text p {
+  line-height: 1.2;
+}
+.text a {
+  color: blue;
+  text-decoration: underline;
+}
+.strong {
+  font-weight: 700;
+  font-size: 20px;
+}
+.subtitle {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+
+.align {
+  text-align: right;
+}
+.last_subtitle + .text {
+  word-spacing: 5px;
+}
+/* ------------------------- */
+
+.personal_portfolio {
+  font-family: "Work Sans";
+  color: #556070;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.personal_portfolio h2 {
+  color: #132238;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.31;
+}
+
+/* --------------------------- */
+
+.bussines {
+  color: #474464;
+  font-family: "DM Sans";
+  font-size: 24px;
+  line-height: 1.75; /* 175% */
+}
+
+.bussines h2 {
+  color: #1e1b39;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1.07;
+}
+/* --------------------------- */
+.landing {
+  color: #505f98;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.66; /* 166.667% */
+}
+.landing h2 {
+  color: #091133;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+}
