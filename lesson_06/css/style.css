@@ -33,7 +33,7 @@
       rgba(20, 20, 20, 1) 100%
     ),
     linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0) 100%),
-    #141414 url(/img/dark/back.png) top center / contain no-repeat;
+    #141414 url(../img/dark/back.png) top center / contain no-repeat;
 }
 .dark-container {
   max-width: 1628px;
@@ -75,7 +75,7 @@
 .dark-link-btn span {
   display: inline-block;
   padding-left: 32px;
-  background: url(/img/dark/icon.svg) 0 0 / 28px no-repeat;
+  background: url(../img/dark/icon.svg) 0 0 / 28px no-repeat;
 }
 
 /* ---------------------------------------------- */
